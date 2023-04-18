@@ -1,0 +1,28 @@
+.Rooms {
+  display: flex;
+  /*   justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  background-color: #151b25;
+}
+.language {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.block {
+  height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .Rooms {
+    height: 100%;
+  }
+}
+@media screen and (min-height: 1100px) {
+  .Rooms {
+    /* height: 100%; */
+    height: 100%;
+  }
+}

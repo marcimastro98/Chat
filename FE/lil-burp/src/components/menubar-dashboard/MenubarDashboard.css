@@ -1,0 +1,92 @@
+.container-menu {
+  background-color: #151b25;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.vip {
+  position: relative;
+  padding-right: 10px;
+  color: #a82eac;
+  font-weight: bold;
+}
+.free {
+  position: relative;
+  color: #2eac2e;
+  font-weight: bold;
+  padding-right: 10px;
+  animation: free 3s linear infinite alternate;
+}
+@keyframes free {
+  0% {
+    color: #2eac2e00;
+  }
+  50% {
+    color: #2eac2e;
+  }
+  100% {
+    color: #2eac2e00;
+  }
+}
+.menu {
+  border: none;
+  top: 10px;
+  width: 100%;
+}
+.menu * {
+  border: none;
+}
+.p-menubar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .free {
+    right: 7px;
+  }
+  .mb-1 {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .p-menubar .p-menubar-button:hover {
+    background: none;
+  }
+  .p-menubar .p-menubar-button:focus {
+    box-shadow: none;
+  }
+  .vip {
+    padding-right: 4px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .p-menubar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-menubar-end div {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .p-menubar .p-menubar-button {
+    width: 100%;
+  }
+  .menu input {
+    width: 115px;
+  }
+  .vip {
+    position: absolute;
+    top: 46px;
+    right: 125px;
+  }
+  .free {
+    position: absolute;
+    top: 50px;
+    right: 142px;
+  }
+  .crown {
+    left: 30px;
+  }
+}

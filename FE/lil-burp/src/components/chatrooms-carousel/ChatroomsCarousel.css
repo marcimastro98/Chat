@@ -1,0 +1,141 @@
+.carousel-demo .product-item .product-item-content {
+  border: 1px solid var(--surface-d);
+  border-radius: 3px;
+  margin: 0.3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.carousel-demo .product-item .product-image {
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.p-link {
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 30px !important;
+}
+.carousel-demo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  width: 100%;
+  height: 50%;
+}
+.card-vip {
+  width: 100%;
+}
+.online {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4ec436;
+  top: 1px;
+  right: 2%;
+}
+
+.card-vip .online {
+  left: 39%;
+}
+
+.carousel-demo .product-item .product-item-content {
+  border: none;
+  border-radius: 3%;
+  background-color: #1f2d40;
+}
+.product-item-content {
+  box-shadow: #000000 0px 0px 10px 0.3px inset;
+}
+.p-carousel-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-item .product-image {
+  width: 30%;
+}
+.free-icon {
+}
+.premium-icon {
+  animation: rotation 3s infinite linear;
+}
+@media screen and (max-width: 600px) {
+  .premium-icon {
+    animation: none;
+  }
+}
+.freeText {
+  font-size: 30px;
+  border-bottom: 1px solid #4ec436;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+}
+.premiumText {
+  font-size: 30px;
+  border-bottom: 1px solid #a82eac;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+}
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+.premium .product-item .product-item-content {
+  background-color: #1f2d40;
+}
+.premium .product-item .product-item-content h4 {
+  color: #fff;
+}
+.premium .product-item .product-item-content h6 {
+  color: #fff;
+}
+.premium .product-item .product-item-content span {
+  color: #fff;
+}
+.premium .product-item .product-image {
+  box-shadow: 0 3px 6px #a82eac, 0 3px 6px #a82eac;
+  /*background-color: #a82eac;*/
+  background-color: #a82eac09;
+  border-radius: 10%;
+}
+.premium .product-item .p-button.p-button-success {
+  background-color: #c5e1a5;
+  border: none;
+}
+.premium .product-item .p-button.p-button-success span {
+  color: #1f2d40;
+}
+.premium .product-item .p-button.p-button-success:hover {
+  background-color: #a82eac;
+}
+
+@media screen and (max-width: 600px) {
+  .online {
+    right: 5%;
+  }
+}
+@media screen and (max-height: 1180px) {
+}
+@media screen and (max-width: 1080px) {
+  .freeText {
+    border-radius: 0;
+  }
+  .premiumText {
+    border-radius: 0;
+  }
+}

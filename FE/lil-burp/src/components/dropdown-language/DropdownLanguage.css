@@ -1,0 +1,35 @@
+.dropdown-demo .p-dropdown {
+  width: 14rem;
+}
+
+.dropdown-demo .country-item-value img.flag {
+  width: 17px;
+}
+.country-item {
+  display: flex;
+}
+.languageImage {
+  width: 20px;
+}
+.p-dropdown {
+  border: none;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-dropdown-panel {
+  border: none;
+}
+.p-dropdown-items-wrapper {
+  width: 100%;
+}
+.flags {
+  width: 50%;
+}
+.code {
+  padding-left: 5px;
+  font-size: 15px;
+}
